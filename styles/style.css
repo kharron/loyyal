@@ -466,3 +466,7 @@ body {
 .parallax-heading {
 	color:#ffffff;
 }
+.sphere-header {
+	padding-top: 32px;
+	padding-bottom: 20px;
+}
