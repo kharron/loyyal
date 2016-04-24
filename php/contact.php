@@ -16,7 +16,7 @@
 	$subject = "Message From: $name";	
 	$message = "<strong>From:</strong> $name <br/><br/> <strong>Message:</strong> $message";
 	
-	$headers .= 'From: '. $name . '<' . $email . '>' . "\r\n";
+	$headers = 'From: '. $name . '<' . $email . '>' . "\r\n";
 	$headers .= 'Reply-To: ' . $email . "\r\n";
 	
 	$headers .= 'MIME-Version: 1.0' . "\r\n";
