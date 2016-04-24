@@ -343,7 +343,7 @@ body {
 }
 .parallax-left-box h3 {
      color: #FFFFFF;
-     margin-top: 40px;
+     margin-top: 65px;
 }
 .parallax-left-box em {
      color: rgba(255, 255, 255, 0.8);
@@ -359,7 +359,8 @@ body {
 		 background-color: #ffffff;
 }
 .bg3 {
-     background-image: url(../images/new-york-morning.jpg);
+     /* background-image: url(../images/new-york-morning.jpg); */
+		 background-color: #3665b0;
 }
 .bg4 {
      background-image: url(../images/general-fullslider/4.jpg);
@@ -466,7 +467,7 @@ body {
 .parallax-heading {
 	color:#ffffff;
 }
-.sphere-header {
+.sphere-heading {
 	padding-top: 32px;
 	padding-bottom: 20px;
 }
@@ -478,4 +479,10 @@ body {
 	.formerly {
 		margin-right: 30px;
 	}
+}
+.section4-heading {
+	line-height: 50px;
+}
+.section-lower-image {
+	max-width: 345px;
 }
