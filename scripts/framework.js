@@ -226,7 +226,9 @@ $(document).ready(function(){
 		switch (window.orientation) {
 		case -90:
 		case 90:
-			var size_screen = $('.slider-container').height()*win_modifier;
+			 var size_screen = $('.slider-container').height()*win_modifier;
+			//var size_screen = 402.5;
+			console.log("SCREEN SIZE: " + size_screen);
 			var size_caption = $('.fullscreen-caption').height();
 			$('.slider-clear').animate({
 				height: size_screen + 40,
@@ -239,6 +241,8 @@ $(document).ready(function(){
 			break;
 		default:
 			var size_screen = $('.slider-container').height()*win_modifier;
+			 size_screen = 402.5;
+			//var size_screen = 402.5;
 			var size_caption = $('.fullscreen-caption').height();
 			$('.slider-clear').animate({
 				height: size_screen + 40,
