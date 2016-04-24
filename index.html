@@ -377,6 +377,91 @@
     <p id="modal1Desc">
 			Going to put a form here, but need the form
     </p>
+                    <form action="php/contact.php" method="post" class="contactForm" id="partnerForm">
+                        <fieldset class="full-bottom">  
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="CompanyName">
+                                    Company Name
+                                    <em class="formValidationError no-bottom" id="partnerCompanyNameError">field is required!</em>
+                                    <span>(required)</span>
+                                </label>
+                                <input type="text" name="partnerCompanyName" value="" class="contactField field-deco requiredField" id="partnerCompanyName"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="Website">
+                                    Website
+                                </label>
+                                <input type="text" name="partnerWebsite" value="" class="contactField field-deco requiredField" id="partnerWebsite"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="Industry">
+                                    Industry
+                                </label>
+                                <input type="text" name="partnerIndustry" value="" class="contactField field-deco requiredField" id="partnerIndustry"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="Country">
+                                    Geographic Region (Country)
+                                </label>
+                                <input type="text" name="partnerGeographic" value="" class="contactField field-deco requiredField" id="partnerGeographic"/>
+                            </div>
+														<div style="width: 100%; height: 40px; margin-bottom: 10px; background-color: #182b4f;color: #fff;"><h3 style="color:#fff;padding-top: 10px; padding-bottom: 10px;">Company Representative Details</h3></div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="Name">
+                                    Name
+                                    <em class="formValidationError no-bottom" id="partnerNameError">field is required!</em>
+                                    <span>(required)</span>
+                                </label>
+                                <input type="text" name="partnerName" value="" class="contactField field-deco requiredField" id="partnerName"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="Title">
+                                    Title
+                                </label>
+                                <input type="text" name="partnerTitle" value="" class="contactField field-deco requiredField" id="partnerTitle"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactEmailField" for="contactEmailField">
+                                    Email 
+                                    <em class="formValidationError no-bottom" id="contactEmailFieldError">field is required!</em>
+                                    <em class="formValidationError no-bottom" id="contactEmailFieldError2">address is not valid!</em>
+                                    <span>(required)</span>
+                                </label>
+                                <input type="text" name="contactEmailField" value="" class="contactField field-deco requiredField requiredEmailField" id="contactEmailField"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="Contact_you">
+                                    Best way to contact you
+                                </label>
+                                <input type="text" name="partnerBestWay" value="" class="contactField field-deco requiredField" id="partnerBestWay"/>
+                            </div>
+														<div style="width: 100%; height: 40px; margin-bottom: 10px; background-color: #182b4f;color: #fff;"><h3 style="color:#fff;padding-top: 10px; padding-bottom: 10px;">Rewards Program Information</h3></div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="question1">
+                                    Are you creating a RApp for an existing rewards program? Great! Tell us about your program
+                                </label>
+                                <input type="text" name="partnerQuestion1" value="" class="contactField field-deco requiredField" id="partnerQuestion1"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="question2">
+                                    Are you looking to create a new rewards program? Let us know about your idea!
+                                </label>
+                                <input type="text" name="partnerQuestion2" value="" class="contactField field-deco requiredField" id="partnerQuestion2"/>
+                            </div>
+                            <div class="formFieldWrap container">
+                                <label class="field-title contactNameField" for="question3">
+                                    What is the estimated monthly value of the behavior you are/want to incentivize? (For example, sales).
+                                </label>
+                                <input type="text" name="partnerQuestion3" value="" class="contactField field-deco requiredField" id="partnerQuestion3"/>
+                            </div>
+														<div style="width: 100%; height: 40px; margin-bottom: 10px; background-color: #182b4f;color: #fff;"><h3 style="color:#fff;padding-top: 10px; padding-bottom: 10px;">Thanks!</h3></div>
+                            <div class="clear"></div>
+                            <div class="formSubmitButtonErrorsWrap">
+                                <i class="fa fa-envelope"></i>
+                                <input type="submit" class="buttonWrap contactSubmitButton" id="contactSubmitButton" value="Submit" data-formId="partnerForm"/>
+                            </div>
+                        </fieldset>
+                    </form>       
   </div>
   <br>
   <button data-remodal-action="cancel" class="remodal-cancel">nah.</button>

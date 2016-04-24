@@ -74,11 +74,13 @@ jQuery(document).ready(function($) {
 		validateForm($(this).attr('data-formId'));	
 	    return false;		
 	});
+	// contact button #1 function starts
+	$('#contactSubmitButton').click(function() {	
+		validateForm($(this).attr('data-formId'));	
+	    return false;		
+	});
 	// contact button function ends
 	
 	
 	
 });
-/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*//////////////////// Document Ready Function Ends                                                                       */
-/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
