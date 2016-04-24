@@ -42,8 +42,8 @@
   $message .= "<strong>Question 2:</strong> $question2 <br /><br />";
   $message .= "<strong>Question 3:</strong> $question3 <br /><br />";
 	
-	$headers .= 'From: '. $name . '<' . $email . '>' . "\r\n";
-	$headers .= 'Reply-To: ' . $email . "\r\n";
+	$headers .= 'From: '. $name . '<info@loyyal.com>' . "\r\n";
+	$headers .= 'Reply-To: info@loyyal.com\r\n';
 	
 	$headers .= 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
