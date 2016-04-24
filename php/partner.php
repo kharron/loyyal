@@ -12,7 +12,7 @@
 	$queston2= "";
 	$queston3= "";
 	
-	$companyName =  trim($_POST['partnerCompanyname']);
+	$companyName =  trim($_POST['partnerCompanyName']);
 	$website =  trim($_POST['partnerWebsite']);
 	$industry =  trim($_POST['partnerIndustry']);
 	$country =  trim($_POST['partnerGeographic']);
