@@ -10,7 +10,7 @@ body {
 }
 
 .larger-text p {
-     font-size: 14px;
+     font-size: 18px;
      line-height: 30px;
 /*     width: 75%; */
      margin-left: auto;
@@ -469,4 +469,13 @@ body {
 .sphere-header {
 	padding-top: 32px;
 	padding-bottom: 20px;
+}
+.formerly {
+	float: right;
+}
+@media (max-width: 1220px) {
+	/* So that the formerly image has some padding after breaking the max width guideline */
+	.formerly {
+		margin-right: 30px;
+	}
 }

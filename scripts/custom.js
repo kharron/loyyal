@@ -28,10 +28,13 @@ $(document).ready(function(){
 		// for mobile
 		if ($(window).width() < 640){
 			$("#hero_image").attr("src", "images/general-fullslider/hands-coffee-smartphone-technology-mobile.jpg");
+			$(".formerly img").attr("src", "images/general-fullslider/loyyalformerlyribbit-tablet.png");
 		} else if ($(window).width() < 1024) {
 			$("#hero_image").attr("src", "images/general-fullslider/hands-coffee-smartphone-technology-tablet.jpg");
+			$(".formerly img").attr("src", "images/general-fullslider/loyyalformerlyribbit-tablet.png");
 		} else {
 			$("#hero_image").attr("src", "images/general-fullslider/hands-coffee-smartphone-technology.jpg");
+			$(".formerly img").attr("src", "images/general-fullslider/loyyalformerlyribbit.png");
 		}
 	}
 	
