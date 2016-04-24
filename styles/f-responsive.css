@@ -35,10 +35,6 @@
 }
 
 @media screen and (min-width:0px) and (max-width:768px){
-	.full-image{
-		min-width:100%;
-		display: block;
-	}
 	body{ font-size:14px;	line-height:24px;}
 	h1{	  font-size:22px;	margin-bottom:10px;	font-weight:800;	color:#182b4f;}
 	h2{	  font-size:20px;	margin-bottom:10px;	font-weight:800;	color:#182b4f;}
@@ -199,17 +195,15 @@
 /*//////////////*/
 
 @media screen and (min-width:768px) {
-	.full-image{
-		max-width:100%;
-		display:block;
-	}
 }
+/*
 @media screen and (max-width:768px) {
 	.full-image{
 		max-width:100%;
 		display:block;
 	}
 }
+	*/
 
 @media screen and (min-width:768px) and (max-width:1024px){
 	body{ font-size:14px;	line-height:24px;}				 
@@ -220,7 +214,7 @@
 	h5{	  font-size:16px;	margin-bottom:10px;	font-weight:600;	color:#182b4f;}
 	h6{	  font-size:14px;	margin-bottom:10px;	font-weight:600;	color:#182b4f;}
 	.box-960{   	 width:100%; margin:0 auto;}	
-	.box-1200{   	 width:100%; margin:0 auto;}	
+	/*.box-1200{   	 width:100%; margin:0 auto;}	*/
 	.box-p80{	width:80%; margin:0 auto;}
 	.container{ margin-bottom:20px;}
 	.decoration{margin-bottom:20px;}
@@ -240,6 +234,7 @@
 	.detect-screen{display:block;}
 	.detect-mobile{display:none;}
 	
+
 	/*//////////////////*/	
 	/*Responsive Columns*/
 	/*//////////////////*/
