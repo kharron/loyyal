@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
 	    return false;		
 	});
 	// contact button #1 function starts
-	$('#contactSubmitButton').click(function() {	
+	$('#partnerSubmitButton').click(function() {	
 		validateForm($(this).attr('data-formId'));	
 	    return false;		
 	});
