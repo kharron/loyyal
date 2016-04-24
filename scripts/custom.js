@@ -2,8 +2,10 @@ $(document).ready(function(){
 	"use strict"
 
 	resize_image();
+	resize_hero();
 	$(window).resize(function(){
 		resize_image();
+		resize_hero();
 	});
 	
 	////////////////////////
@@ -20,6 +22,16 @@ $(document).ready(function(){
 			$("#sphere").attr("src", "images/sphere-industries-mobile.jpg");
 		} else {
 			$("#sphere").attr("src", "images/sphere-industries.jpg");
+		}
+	}
+	function resize_hero(){
+		// for mobile
+		if ($(window).width() < 640){
+			$("#hero_image").attr("src", "images/general-fullslider/hands-coffee-smartphone-technology-mobile.jpg");
+		} else if ($(window).width() < 1024) {
+			$("#hero_image").attr("src", "images/general-fullslider/hands-coffee-smartphone-technology-tablet.jpg");
+		} else {
+			$("#hero_image").attr("src", "images/general-fullslider/hands-coffee-smartphone-technology.jpg");
 		}
 	}
 	

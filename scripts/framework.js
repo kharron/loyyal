@@ -216,10 +216,17 @@ $(document).ready(function(){
 	////////////////////////////////////////////////////////////////
 
 	function doOnOrientationChange() {
+		var window_width = $(window).width();
+		var win_modifier;
+		if (window_width < 1024){
+			win_modifier = .5;
+		} else {
+			win_modifier = 1;
+		}
 		switch (window.orientation) {
 		case -90:
 		case 90:
-			var size_screen = $('.slider-container').height();
+			var size_screen = $('.slider-container').height()*win_modifier;
 			var size_caption = $('.fullscreen-caption').height();
 			$('.slider-clear').animate({
 				height: size_screen + 40,
@@ -231,7 +238,7 @@ $(document).ready(function(){
 			});
 			break;
 		default:
-			var size_screen = $('.slider-container').height();
+			var size_screen = $('.slider-container').height()*win_modifier;
 			var size_caption = $('.fullscreen-caption').height();
 			$('.slider-clear').animate({
 				height: size_screen + 40,
