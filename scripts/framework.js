@@ -228,7 +228,6 @@ $(document).ready(function(){
 		case 90:
 			 var size_screen = $('.slider-container').height()*win_modifier;
 			//var size_screen = 402.5;
-			console.log("SCREEN SIZE: " + size_screen);
 			var size_caption = $('.fullscreen-caption').height();
 			$('.slider-clear').animate({
 				height: size_screen + 40,
